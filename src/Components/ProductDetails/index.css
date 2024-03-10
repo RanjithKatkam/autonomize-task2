@@ -1,0 +1,50 @@
+.product-details-main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.product-img-container {
+    width: 40%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-details-container {
+    width: 40%;
+    height: 55%;
+}
+
+.p1 {
+    margin: 0px;
+}
+
+.p2 {
+    margin-top: 9px;
+    font-size: 20px;
+}
+
+.brand {
+    font-family: "source sans pro";
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 0px;
+    color: rgb(62, 58, 58);
+}
+
+.des {
+    font-family: "Mulish";
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.ava {
+    font-family: "Roboto";
+    font-size: 14px;
+}
